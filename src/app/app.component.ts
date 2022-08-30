@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mission-planning-dashboard';
+  editingRocket: boolean = false;
+  editingMission: boolean = false;
 }
-
-// this change should only be reflected in studio-3 branch
